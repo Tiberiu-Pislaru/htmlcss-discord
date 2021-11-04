@@ -122,7 +122,9 @@ a{
     font-size: 40px;
 }
 
-.container_testo_main_right h1, .container_testo_main_left h1{
+.container_testo_main_right h1, 
+.container_testo_main_left h1, 
+.container_testo_main_finale h1{
     margin-bottom: 20px;
 }
 
@@ -143,7 +145,8 @@ a{
     width: 55%;
 }
 
-.container_img img{
+.container_img img,
+.container_img_finale img{
     width:100%;
 }
 
@@ -153,9 +156,9 @@ a{
     padding-top: 40px;
 }
 
-.main_content>.row{
+/* .main_content>.row{
     padding-top: 50px;
-}
+} */
 
 .main_content{
     margin-bottom: 50px;
@@ -179,5 +182,26 @@ a{
 } */
 
 .margin{
-    margin-top: 20px;
+    margin-top: 50px;
+}
+
+.container_testo_main_finale{
+    text-align: center;
+}
+
+.stringa{
+    background: url('../img/stars.svg') no-repeat;
+    background-size: contain;
+    padding: 15px 30px;
+    display:inline-block;
+    text-align: center;
+}
+
+.purple{
+    background-color: #89a2e6;
+}
+
+.box_last_button div{
+    text-align: center;
+    padding-bottom: 10px;
 }
