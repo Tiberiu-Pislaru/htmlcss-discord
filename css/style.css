@@ -122,7 +122,7 @@ a{
     font-size: 40px;
 }
 
-.container_testo h1, .container_testo_main h1{
+.container_testo_main_right h1, .container_testo_main_left h1{
     margin-bottom: 20px;
 }
 
@@ -140,14 +140,14 @@ a{
 }
 
 .container_img{
-    width: 65%;
+    width: 55%;
 }
 
 .container_img img{
     width:100%;
 }
 
-.container_testo_main{
+.container_testo_main_right{
     width:35%;
     padding-left: 80px;
     padding-top: 40px;
@@ -159,4 +159,25 @@ a{
 
 .main_content{
     margin-bottom: 50px;
+    height: auto;
+}
+
+.fr{
+    float:right
+}
+
+.container_testo_main_left{
+    width:35%;
+    /* padding-left: 80px; */
+    padding-top: 40px;
+    margin-right: 30px;
+}
+
+/* .wave{
+    background:url('../img/wave.svg');
+    opacity: 0.2;
+} */
+
+.margin{
+    margin-top: 20px;
 }
