@@ -2,6 +2,7 @@
     padding: 0;
     margin:0;
     box-sizing: border-box;
+    
 }
 
 body{
@@ -19,6 +20,10 @@ header{
     height: 70vh;
     /* background-color: aqua; */
     margin: 0 auto;
+    
+}
+
+.pr{
     position:relative;
 }
 
@@ -43,6 +48,8 @@ header{
     display: table;
     clear: both;
 }
+
+
 
 /* .sode_box{
     width: 20%;
@@ -111,8 +118,11 @@ a{
     
 }
 
-h1{
+.container_testo h1{
     font-size: 40px;
+}
+
+.container_testo h1, .container_testo_main h1{
     margin-bottom: 20px;
 }
 
@@ -131,9 +141,22 @@ h1{
 
 .container_img{
     width: 65%;
-    padding-right: 0px;
 }
 
 .container_img img{
     width:100%;
+}
+
+.container_testo_main{
+    width:35%;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+.main_content>.row{
+    padding-top: 50px;
+}
+
+.main_content{
+    margin-bottom: 50px;
 }
